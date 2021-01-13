@@ -46,84 +46,63 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 /*content*/
-
-
-* {
+.container{
+    max-width: 1200px;
+    
+    margin: 0 auto;
+    background-color: white;
+   
+}
+*,*::before,*::after{
     box-sizing: border-box;
 }
-
-body{
-    background-color: #EFEFEF;
-    line-height: 1.5;
-
-    
-
-}
- h1{
-    font-size: 50px;
-    text-align: center;
- }
-
-.box{
-    width: 1100px;
-    height: 680px;
-    background-color:white;
-    margin: 0 auto;
-    padding: 10px;
-
-
-
-}
-
-
-
-h2{
-    
-    font-size: 40px;
-    
-    margin:0  280px;
-  
-
-}
-.paragraph{
-    padding: 0 270px;
-    
-    
-}
-
-.colum1{
-    float: left;
-    padding: 20px 30px;
-}
-.clearfix::before , .clearfix::after{
-	content: "";
-	clear: both;
-	display: table;
+.clearfix::before,.clearfix::after{
+    content: "";
+    display: table;
 }
 .clearfix::after{
-	clear: both;
+    clear: both;
 }
-.colum2{
-    
-    
-    margin: 0 auto;
-    
-    
-    
+body{
+    background-color: #EFEFEF;
+    line-height: 1.2;
+    font-size: 20px;
+    padding: 30px 0;
 }
-.img{
-    height: 250px;
-    width: 300px;
-    margin: 0 150px;
-
-    
-}
-.colum3{
-    float:right;
-    padding: 20px 20px;
-    
+h1{
+    font-size: 45px;
+    text-align: center;
+    padding: 20px 0;
 
 }
+.article{
+    width: 40%;
+    padding: 20px 0;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    padding: 10px 0;
+}
+.aside{
+    width: 30%;
+    padding: 10px 50px;
     
+}
+.para{
+    padding: 0 30px;
+}
+.paragraph{
+    font-weight: 600;
+    padding: 30px 0;
+}
+
+img{
+    width: 500px;
+    
+}
+.float{
+    float: left;
+}
