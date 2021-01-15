@@ -1,0 +1,107 @@
+<!-- ### Exercise
+
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the logo to the left and all the navigation to the right.
+
+3. The header must be fixed at the top of the page.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Take a circular button at the right bottom corner of the page and keep its position fixed. The button should always take to the top of the page once clicked. -->
+
+
+<!-----HTML-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+       
+      <title>Document</title>
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="style.css">
+      <script src="https://kit.fontawesome.com/f98f63fd9d.js" crossorigin="anonymous"></script>
+    </head>
+  <body id="top">
+    <header class="head">
+        <div class="container clearfix">
+            <a class="logo" href="#">PICTURES</a>
+            <nav class="nav">
+               <a href="#">HOME</a>
+               <a href="#">ABOUT</a>
+               <a href="#">BLOG</a>
+               <a href="#">GALLERY</a>
+            
+            </nav>
+        </div>
+    </header>
+    <main>
+        <article class="article">
+            <div class="container clearfix">
+                <div class="col-1">
+                    <h1>Lorem ipsum dolor sit amet </h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente libero excepturi consequuntur suscipit assumenda quos dolorem facilis ipsa, veritatis facere possimus voluptates laborum at
+                         praesentium repudiandae? Reprehenderit voluptate eaque numquam?
+                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente libero excepturi consequuntur suscipit assumenda quos dolorem facilis ipsa, veritatis facere possimus voluptates laborum at
+                         praesentium repudiandae? Reprehenderit voluptate eaque numquam?
+                    </p>
+                </div>
+            
+                <div class="col-1">
+                    <img class="img" src="assets/media/splash_02-1024x663.jpg" alt="loading error">
+                </div>
+                </div>
+        </article>
+        <section>
+            <div class="container clearfix">
+                
+                    <div class="col-2">
+                        <img src="assets/media/about-1-1024x448.jpg" alt="loading error">
+                    </div>
+                    <div class="col-2">
+                        <img src="assets/media/pinhole_adventure_03-820x1024.jpg" alt="loading error">
+                    </div>
+                    <div class="col-2">
+                        <img src="assets/media/pinhole_adventure_04-1024x683.jpg" alt="loading error">
+                    </div>
+                    <div class="col-2">
+                        <img src="assets/media/pinhole_adventure_14-1024x670.jpg" alt="loading error">
+                    </div>
+                    <div class="col-2">
+                        <img src="assets/media/pinhole_adventure_17-1024x1024.jpg" alt="loading error">
+                    </div>
+                    <div class="col-2">
+                        <img src="assets/media/pinhole_adventure_01-1024x640.jpg" alt="loading error">
+                    </div>
+                  
+            </div>
+                
+        </section>
+    </main>
+    <footer class="foot">
+        <div class="container clearfix">
+           <nav class="navigation">
+               <a href="#" >
+                  <i class="fab fa-facebook-f"></i>
+               </a>
+               <a href="#">
+                  <i class="fab fa-instagram"></i>
+               </a>
+               <a href="#">
+                  <i class="fab fa-twitter"></i>
+               </a>
+            </nav>
+
+        </div>
+    </footer>
+    <a  class="btn"href="#top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+  </body>
+</html>
