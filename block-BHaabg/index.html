@@ -15,64 +15,93 @@
 7. Take a circular button at the right bottom corner of the page and keep its position fixed. The button should always take to the top of the page once clicked. -->
 
 
+<!-----HTML-->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-  </head>
-  <body>
+    <head>
+      <meta charset="UTF-8">
+       
+      <title>Document</title>
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="style.css">
+      <script src="https://kit.fontawesome.com/f98f63fd9d.js" crossorigin="anonymous"></script>
+    </head>
+  <body id="top">
     <header class="head">
-        <img class="img" src="website.png" alt="Loading error">
-        <nav class="navigation ">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Blog</a>
-        </nav>
-        </header>
-        <main>
-           <section id="top">
-              <article class="article clearfix">
+        <div class="container clearfix">
+            <a class="logo" href="#">PICTURES</a>
+            <nav class="nav">
+               <a href="#">HOME</a>
+               <a href="#">ABOUT</a>
+               <a href="#">BLOG</a>
+               <a href="#">GALLERY</a>
+            
+            </nav>
+        </div>
+    </header>
+    <main>
+        <article class="article">
+            <div class="container clearfix">
                 <div class="col-1">
-                   <h2>Heading</h2>
-                   <p>"Lorem ipsum dolor sit amet, consectetur adipiscingelit, sed do eiusmod tempor incididunt <br>
-                       ut labore et dolore magna aliqua. Ut enim ad minim veniam,nostrud exercitation ullamco <br>
-                       laboris nisi ut aliquiex ea commodo consequat. Duis aute irure dolor in reprehenderit in <br>
-                       voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat <br>
-                       cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
-                       Lorem ipsum dolor sit amet, consectetur adipiscingelit, sed do eiusmod tempor incididunt <br>
-                       ut labore et dolore magna aliqua. Ut enim ad minim veniam,nostrud exercitation ullamco <br>
-                       laboris nisi ut aliquiex ea commodo consequat. Duis aute irure dolor in reprehenderit in <br>
-                       voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat <br>
-                       cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
-                   </p>
+                    <h1>Lorem ipsum dolor sit amet </h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente libero excepturi consequuntur suscipit assumenda quos dolorem facilis ipsa, veritatis facere possimus voluptates laborum at
+                         praesentium repudiandae? Reprehenderit voluptate eaque numquam?
+                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente libero excepturi consequuntur suscipit assumenda quos dolorem facilis ipsa, veritatis facere possimus voluptates laborum at
+                         praesentium repudiandae? Reprehenderit voluptate eaque numquam?
+                    </p>
                 </div>
-                <div class="col-2"> 
-                  <img class="img1"src="n1.jpg" alt="Loading error">
+            
+                <div class="col-1">
+                    <img class="img" src="assets/media/splash_02-1024x663.jpg" alt="loading error">
                 </div>
-              </article>
-              <gallery class="clearfix">
-              <div class="gallery">
-                <img class="galleryimg "src="n2.jpeg" alt="Loading error">
-                <img class="galleryimg "src="n3.jpg" alt="Loading error">
-                <img class="galleryimg "src="n4.jpg" alt="Loading error">
-              </div>
-              <div class="gallery">
-                <img class="galleryimg"src="n5.jpg" alt="Loading error">
-                <img class="galleryimg"src="n6.jpg" alt="Loading error">
-                <img class="galleryimg"src="nature1.jpg" alt="Loading error">
-              </div>
-              </gallery>
+                </div>
+        </article>
+        <section>
+            <div class="container clearfix">
+                
+                    <div class="col-2">
+                        <img src="assets/media/about-1-1024x448.jpg" alt="loading error">
+                    </div>
+                    <div class="col-2">
+                        <img src="assets/media/pinhole_adventure_03-820x1024.jpg" alt="loading error">
+                    </div>
+                    <div class="col-2">
+                        <img src="assets/media/pinhole_adventure_04-1024x683.jpg" alt="loading error">
+                    </div>
+                    <div class="col-2">
+                        <img src="assets/media/pinhole_adventure_14-1024x670.jpg" alt="loading error">
+                    </div>
+                    <div class="col-2">
+                        <img src="assets/media/pinhole_adventure_17-1024x1024.jpg" alt="loading error">
+                    </div>
+                    <div class="col-2">
+                        <img src="assets/media/pinhole_adventure_01-1024x640.jpg" alt="loading error">
+                    </div>
+                  
+            </div>
+                
+        </section>
+    </main>
+    <footer class="foot">
+        <div class="container clearfix">
+           <nav class="navigation">
+               <a href="#" >
+                  <i class="fab fa-facebook-f"></i>
+               </a>
+               <a href="#">
+                  <i class="fab fa-instagram"></i>
+               </a>
+               <a href="#">
+                  <i class="fab fa-twitter"></i>
+               </a>
+            </nav>
 
-            </section>       
-        </main>
-        <footer class="foot footer">
-           <small>@alt campus</small>
-           <div>
-             <a href="#top"><button class="btn" type="button"> Back to top</button></a>
-           </div>
-        </footer>
-    
-   </body>
+        </div>
+    </footer>
+    <a  class="btn"href="#top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+  </body>
 </html>
